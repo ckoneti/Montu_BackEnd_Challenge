@@ -1,4 +1,4 @@
-export type address = {
+export interface Address {
     placeId: string;
     streetNumber: string;
     countryCode: string;
@@ -7,7 +7,7 @@ export type address = {
     municipality: string;
 }
 
-export type Result = {
+export interface Result {
     id: string
     address: {
         streetNumber: string,
