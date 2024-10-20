@@ -49,3 +49,18 @@ specific details about an address using the TomTom API. The api is written in ty
 2. To get test coverage run `yarn test`
 3. Linting can be run using `yarn lint` respectively
 
+Coverage Report:
+================
+| File          | % Stmts   | % Branch   | % Funcs   | % Lines   | Uncovered Line #s   |
+|---------------|-----------|------------|-----------|-----------|---------------------|
+| All files     | 100       | 83.33      | 100       | 100       |                     |
+| index.ts      | 100       | 75         | 100       | 100       | 7                   |
+| maps-api.ts   | 100       | 100        | 100       | 100       |                     |
+| ------------- | --------- | ---------- | --------- | --------- | ------------------- |
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        1.808 s, estimated 2 s
+Ran all test suites.
+✨  Done in 2.73s.
