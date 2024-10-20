@@ -1,10 +1,10 @@
 import axios, {AxiosResponse} from 'axios'
-import {address, Result} from "../types";
+import {Address, Result} from "../types";
 
 // https://developer.tomtom.com/search-api/documentation/search-service/fuzzy-search
 // The func calls the fuzzy search api and returns only AUS specific address details
 // which is of address Type
-export async function getPlaceAutocomplete(key: string, address: string): Promise<address[]> {
+export async function getPlaceAutocomplete(key: string, address: string): Promise<Address[]> {
     try {
         const autocomplete: AxiosResponse = await axios.get(`https://api.tomtom.com/search/2/search/${address}.json?countrySet=AUS`, {
             params: {
